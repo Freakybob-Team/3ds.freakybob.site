@@ -13,6 +13,8 @@ This port was made with these languages :3
 
 [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
 
+There is no JavaScript in this website. While the New 3DS Systems have JavaScript support, the Old 3DS Systems do not have JavaScript support.
+
 Some screenshots of the website :3
 
 <img src="Snapshots/Screenshot3DS.png">

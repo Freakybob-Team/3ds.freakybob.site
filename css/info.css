@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(193, 111, 12);
+    font-family: "Noto Sans", sans-serif;
+}
+h1 {
+    text-align: center;
+    color: rgb(217, 224, 16);
+}
+p {
+    text-align: center;
+    color: rgb(206, 190, 190);
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #dbde06;
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #dbde06;
+    margin-top: -50px;
+}
+h4 {
+    text-align: center;
+    font-size: 40px;
+    color: #e0ba9c;
+    margin-top: -5px;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.button-container button {
+    background: none;
+    border: none;
+    color: #e7d915;
+    margin: 0 15px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid #c107b5;
+}
+.button-container button:hover {
+    color: #0f000f;
+    background-color: #f3ef14;
+}
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 40px;
+}
+#freakybob-orgin, #freakybob-found {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#freakybob-found {
+    width: 200px;
+}
+#bought-freakybob {
+    width: 200px;
+}
+#para1, #para2, #para3 {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bede09;
+}
+#para4 {
+    color: rgb(2, 254, 250);
+    font-size: 20px;
+}
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+.modal img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 5%;
+    }
+    #freakybob-orgin, #freakybob-found {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    #bought-freakybob {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+#para1, #para2, #para3 {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bede09;
+}
+#para4 {
+    color: rgb(2, 254, 250);
+    font-size: 20px;
+}
+h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #dbde06;
+    margin-top: 90px;
+}
+    } 
+img {
+    width: 200px; /* patch 1 for the 3ds */ 
+}  
+.image-container {
+    width: 100%;
+}
+
+#para5 {
+    color: aqua;
+    margin-top: -50px;
+}
